@@ -1,0 +1,144 @@
+.contenido-principal {
+    display: flex;
+    margin: 0px 0px;
+}
+
+.btn-primario {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 25px;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-secundario {
+    background-color: brown;
+    text-align: center;
+    color: aliceblue;
+    padding: 0px 80px;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    width: 80%;
+    height: 30%;
+}
+
+
+.barra a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header {
+    background-image: url(../img/banner.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.site-header h1 {
+    margin: 0 100px;
+}
+
+.site-footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    ;
+}
+.site-footer p{
+font-size: 200%;
+}
+.imgcursos{
+    width: 30%;
+    height: 30%;
+}
+.blog{
+    margin: 0% 20%;
+}
+.site-footer p {
+    margin: 0 100px;
+}
+
+/* NOSOTROS */
+.imgnosotros{
+    width: 30%;
+    height: 30%;
+}
+.entrada-blogn {
+    display: flex;
+    padding-left: 300px;
+}
+
+.blogn h1 {
+    text-align: center;
+}
+
+.contenido-blog p {
+    margin-right: 0px 255px;
+    text-align: left;
+
+}
+
+.cursos-lista {
+    list-style: none;
+    
+}
+.contenido-blog{
+    margin: 0 10px;
+}
+.cursos{
+    margin: 0px 50px;
+    
+}
+/*CONTACTO*/
+.frm-contacto{
+    background-color: white;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 200px;
+    align-items:center;
+    justify-content: end;
+    margin: -10rem auto 0 auto;
+    margin-left: 250px;
+    position: relative;
+}
+
+.frm-contacto button{
+    background-color: black;
+    color: beige;
+    padding: 10px 10px;
+    cursor: cell;
+    padding: 5px;
+    margin: 0% 90%;
+}
+.imagen-cont img{
+    width: 800px;
+    height: 300px;
+    display:flex;
+    justify-content: end;
+}
+.contacto-container h2{
+  text-align: right;
+  margin: 5% 15%;
+}
+.container{
+    margin-left: 35%;
+}
